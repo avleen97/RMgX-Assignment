@@ -1,0 +1,175 @@
+body {
+    background-color: #000000;
+}
+
+.navbar-nav > li > a:hover {
+    border-top: solid 2px #996515;
+}
+
+.top-2 {
+    margin-top: 50px;
+}
+
+.borders {
+    border-right: solid 2px #272520;
+}
+
+.carousel-caption {
+     left: 60%;
+     top: 10%;
+     font-size: 2vw;
+}
+
+.carousel-caption p {
+    font-family: 'Cinzel', serif;
+}
+
+.details1 {
+    background-color: Transparent;
+    border: solid #ffffff 1px; 
+    color: #ffffff;
+}
+
+.details2 {
+    background-color: Transparent;
+    border: solid  #7d7978 1px; 
+    color: #7d7978;
+}
+
+.reservation {
+    background-color: #996515;
+    border-color: #996515;
+    color: #ffffff;
+}
+
+.room-img {
+    border: solid 2px #ffffff;
+    border-radius: 1vw;
+}
+
+.tour {
+  position: relative;
+  overflow: hidden;
+}
+
+.tour video {
+  position: absolute;
+  top: 0;
+  width:100%;
+  height:100%;
+  object-fit: fill;
+}
+
+.room-heading,
+.blog-heading,
+.social-heading,
+.gallery-heading {
+  color: white;
+  font-family: 'Cinzel', serif;
+}
+
+.blog-list {
+  padding-left: .5vw;
+}
+
+.blog-list .blog-heading {
+  padding-bottom: 0.3vw;
+}
+
+.fb-media {
+  border: solid 1vw #3b5998;
+  background-color: #3b5998;
+
+}
+
+.twit-media {
+  border: solid 1vw  #1da1f2; 
+  background-color:  #1da1f2;
+    
+}
+
+.insta-media { 
+  border: solid 1vw #75747a;
+  background-color: #75747a;
+    
+}
+
+.grid-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.grid-column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.grid-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.foot {
+  background-color: #191818;
+  color: white;
+  font-size: 0.8vw;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.icon1 {
+  color: #cd853f;
+  font-size: 2vw;
+}
+
+.icon2 {
+  color: #ffffff;
+  height: 2.8vw;
+  font-size: 3vw;
+}
+
+.text {
+  font-size: 1vw;
+  color: #ffffff;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.text-1 {
+  font-size: 0.6vw;
+  color: #c0c0c0;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.text-2 {
+  font-style: italic;	
+  color: #aab6aa;
+  font-size: 1.5vw;
+}
+
+@media (min-width: 800px){
+  .col-1-5 {
+    width: 20%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .room, .borders {
+    flex: 15%;
+    max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .grid-column {
+    flex: 20%;
+    max-width: 20%;
+    }
+}
